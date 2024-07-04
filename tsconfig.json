@@ -32,10 +32,7 @@
       ],
 	  "@actions/*": [
         "src/actions/*"
-      ],
-	  "@slices/*": [
-        "src/redux/slices/*"
-      ],
+      ],	  
 	  "@src/components": [
         "src/components/*"
       ],
@@ -53,12 +50,6 @@
       ],
       "@layouts/*": [
         "src/components/Templates/*"
-      ],
-      "@selectors/*": [
-        "src/redux/selectors/*"
-      ],
-	  "@redux/*": [
-        "src/redux/*"
       ],
       "@services/*": [
         "src/services/*"

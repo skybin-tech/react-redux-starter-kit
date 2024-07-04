@@ -1,5 +1,5 @@
 {
-  "name": "react-redux-starter-kit",
+  "name": "react-starter-kit",
   "version": "1.0.0",
   "description": "react-starter-kit template",
   "main": "src/Main",
@@ -11,20 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skybin-tech/react-redux-starter-kit.git"
+    "url": "git+https://github.com/skybin-tech/react-starter-kit.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/skybin-tech/react-redux-starter-kit/issues"
+    "url": "https://github.com/skybin-tech/react-starter-kit/issues"
   },
-  "homepage": "https://github.com/skybin-tech/react-redux-starter-kit#readme",
+  "homepage": "https://github.com/skybin-tech/react-starter-kit#readme",
   "dependencies": {
     "@babel/runtime": "^7.24.7",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
-    "@reduxjs/toolkit": "^2.2.6",
-    "axios": "^1.7.2",
+    "alova": "^2.21.3",
     "bulma": "^1.0.1",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.11",
@@ -41,11 +40,9 @@
     "react-dom": "^18.3.1",
     "react-i18next": "^14.1.2",
     "react-icons": "^5.2.1",
-    "react-redux": "^9.1.2",
     "react-router": "^6.24.1",
     "react-router-dom": "^6.24.1",
     "react-stripe-checkout": "^2.6.3",
-    "redux-logger": "^3.0.6",
     "styled-components": "^6.1.11",
     "yup": "^1.4.0"
   },
@@ -64,7 +61,6 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@types/react-router-dom": "^5.3.3",
-    "@types/redux-logger": "^3.0.13",
     "@types/webpack-env": "^1.18.5",
     "@typescript-eslint/eslint-plugin": "^7.15.0",
     "@typescript-eslint/parser": "^7.15.0",

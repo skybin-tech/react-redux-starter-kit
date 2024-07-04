@@ -1,11 +1,3 @@
-interface ReduxAction {
-    type: string;
-}
-
-interface ReduxActionWithPayload<T> extends ReduxAction {
-    payload: T;
-}
-
 interface EntityObject<T> {
     by: { [id: string]: T };
     all: (string | number)[];
@@ -30,15 +22,6 @@ interface AccessTokenResponse
     accessToken: string;
     expiredTime: string;
 }
-
-interface ReduxAction {
-    type: string;
-}
-
-interface ReduxActionWithPayload<T> extends ReduxAction {
-    payload: T;
-}
-
 
 interface IDispatch {
     (action: any): any;
